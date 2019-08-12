@@ -18,10 +18,11 @@
   <p><input id='getButton' type='button' value='Get'  />
     <input id='getAllButton' type='button' value='Get All'  />
   </p>
-  <br/><br/>
+  <br/>
   <div id="info"></div>
   <div id="user"></div>
-  <div id="posts"></div>
+  <div id="posts" class="column"></div>
+  <div id="comments" class="column"></div>
 
   </body>
 </html>

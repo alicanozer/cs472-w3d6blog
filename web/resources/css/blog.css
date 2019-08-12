@@ -1,7 +1,4 @@
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
+
 
 #info > p{
      color: red;
@@ -11,3 +8,18 @@ table, th, td {
     color: darkblue;
     font-size: larger;
 }
+
+.column {
+    float: left;
+    width: 50%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
